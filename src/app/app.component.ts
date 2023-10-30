@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'throwaway-tests';
+  title: string = 'throwaway-tests';
+  isSpecial: boolean = false;
 }
